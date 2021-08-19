@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 400;
+ src:url("../fonts/nm_s/NanumSquareR.ttf") format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 300;
+ src:url("../fonts/nm_s/NanumSquareL.ttf") format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 700;
+ src:url("../fonts/nm_s/NanumSquareB.ttf") format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 800;
+ src:url("../fonts/nm_s/NanumSquareEB.ttf") format('truetype');
+}
+
+
