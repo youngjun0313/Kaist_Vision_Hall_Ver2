@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>KAIST 연구성과</title>
+    <link rel="stylesheet" href="../../../css/common.css" type="text/css" />
+    <link rel="stylesheet" href="../../../css/font.css" type="text/css" />
+    <script type="text/javascript" src="js/mediaelement-and-player.js"></script>
+<script type="text/javascript" src="js/common.js" ></script>
+</head>
+
+<body class="detail_body">
+    <!-- 디테일 감싸는 부분  -->
+    <div class="question_sub_detail">
+        <!--  디테일 탑     -->
+        <div class="sub_detailtop sub_detailtop2">
+            <h1 class="sub_detail_logo"><a href="../../main.html" title="궁극의 질문">궁극의 질문</a></h1>
+            <div class="detail_title_wrap">
+                <h2 class="detail_titile">연속 데이터 처리의 미래는 무엇일까요?</h2>
+                <span class="detail_name">전산학부 마틴 지글러</span>
+            </div>
+        </div>
+        <!--  디테일 탑     -->
+        <!--  디테일 컨텐츠  -->
+        <div class="sub_contents sub_detail_contents">
+            <div class="scroll">
+                <div class="detail_txt">
+                    <p align="justify">
+                        수학과 전산학 두 영역의 교차점에는 “numerics”이 있습니다. 과학, 공학, 경제학, 그리고 수학은 모두 복잡한 방정식을 다루는데요, 이들 중 많은 경우에는 정확한 답이 없고, 대신 수치계산법으로 대략적인 값을 구하는 방법을 사용합니다. 이러한 방법은 1930년대부터 비용이 많이 들고 위험한 실험을 대신해 사용되어 왔습니다. <br>
+                        35년 전인 1985년에 IEEE 754 부동소수점 표준이 도입되고 곧바로 하드웨어의 발달로 계산시간을 상당히 줄일 수 있게 되면서 진정한 numerical revolution이 시작되었습니다. 이는 전자공학의 진정한 절정으로 볼 수 있습니다. 그로부터 35년 만에 컴퓨터는 해커들의 꿈으로 시작해서 지금은 하나의 과학 분야로 발전해왔습니다. 하지만, 무어의 법칙이 한계점에 다다르고 있는 지금, 전산학의 연구목적은 ‘더 빠르고 크게’에서 ‘편리하고 멋있게, 기준은 엄격하게’로 변화하고 있습니다. <br>
+                        전자공학과 전산학을 통틀어 보면 다음과 같은 변화들을 볼 수 있습니다. 알고리즘 설계가 경험에 기반한 해킹을 대체하고, 비트 코스트 분석이 경험적 타이밍 측정을 대체하고 있습니다. 복잡성 이론을 통해 알고리즘이 최적화 되었는지 수학적으로 확인할 수 있고, 시험과 디버깅 대신 형식 검증 기법을 사용할 수 있습니다. 또한, 추상 데이터 유형과 객체지향 프로그래밍(object-oriented programming)은 기술적 세부사항 (CPU, 레지스터) 들을 숨길 수 있습니다. 하지만 이러한 전자공학과 전산학의 패러다임 변화는 불연속 데이터 처리로 한정되었습니다. 지난 몇 년 동안 전산학은 스칼라장 및 벡터장, 미분 연산자와 같이 여러 곳에 사용하는 연속 데이터의 처리를 무시해왔습니다. 오늘날에도 연속 데이터는 일반적으로 이산화로 처리됩니다. 하지만 연속적인 성질의 문제를 이산화시키면 많은 잡음이 생기고 기존 공식의 대칭 등 여러 유익한 특성들을 상실하게 됩니다. <br>
+                        예를 들면, 부도 소수점 숫자는 결합 및 분배 법칙을 어겨 대부분 수치 코드에 많은 버그가 발생합니다. 이로 인해 컴퓨터로 설계된 Sleipner-A 석유 플랫폼의 붕괴, Ariane V의 첫 발사 오류 등의 사고가 이어졌습니다. 이산화는 미적분학이 개발된 이유, 즉 완전성, 중간값의 정리 및 부동점 정리 등을 무효화 시킵니다. <br>
+                        우리는 2차 numerical revolution을 대비하기 위해 연속 데이터 처리와 관련해 존재하는 이 거대한 사각지대를 채우기 위해 "Computer Science for Numerics"를 개발했습니다. 독일에서 개발된 iRRAM library는 실수를 라운딩 오차 없이 수학의 법칙에 맞도록 추상 데이터 유형으로 지원합니다. 고급 프로그래밍 언어가 비트, 바이트 및 프로세서의 세부 정보를 숨기는 것과 같이 iRRAM library는 정리된 이상적인 추상화 계층 뒤에 부동 소수점 계산을 숨깁니다. 이러한 정확한 실수의 신뢰성을 더하기 위해 벡터, 행렬, 텐서, 다항식, 수렴 시퀀스, 분석 및 평활 함수 등을 사용합니다. 수학적으로 봤을 때 이들은 모델 이론의 의미에서 “구조의 확장”을 구성합니다. 계산적으로는 연속적인 추상 데이터 유형의 계층을 형성합니다. 이를 이용하면 미적분학 I, II, III, IV으로부터 나오는 구상적 증명들을 신뢰할 수 있는 알고리즘으로 직접, 그리고 자동으로 전환할 수 있게 합니다.<br>
+                        IEEE 754 부동 소수점 숫자는 현대의 CPU와 같이 전자공학의 정점입니다. 전산학은 여기에 현대 컴퓨터의 편리성을 가능케 하는 추상화를 더했습니다. 이러한 강력하고 철저한 방법들이 computer algebra systems와 같은 대규모 소프트웨어 개발의 기반이 됩니다. 우리는 이를 computer analysis system의 개발에 적용하려고 합니다. Turnkey numerics는 즉 전 세계의 순수 및 응용 수학 전문가들의 지식과 전산의 신뢰성을 합친 결과물이라 할 수 있습니다. <br>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--공통하단-->
+        <div class="bottom">
+            <div class="btn_wrap">
+                <span class="icon_home"><a href="../../main.html">home</a></span>
+                <span class="btn_prev"><a href="../question_list/sub_question_list_2.html">이전으로 가기</a></span>
+                <span class="btn_go_list"><a href="../question_list/sub_question_list_2.html">목록으로 이동</a></span>
+            </div>
+        </div>
+        <!--//공통하단-->
+    </div>
+    <!-- 디테일 감싸는 부분 -->
+
+</body>
+
+</html>
