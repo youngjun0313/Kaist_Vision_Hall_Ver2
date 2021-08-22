@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>KAIST 연구성과</title>
+    <link rel="stylesheet" href="../../../css/common.css" type="text/css" />
+    <link rel="stylesheet" href="../../../css/font.css" type="text/css" />
+    <script type="text/javascript" src="js/mediaelement-and-player.js"></script>
+<script type="text/javascript" src="js/common.js" ></script>
+</head>
+
+<body class="detail_body">
+    <!-- 디테일 감싸는 부분  -->
+    <div class="question_sub_detail">
+        <!--  디테일 탑     -->
+        <div class="sub_detailtop sub_detailtop2">
+            <h1 class="sub_detail_logo"><a href="../../main.html" title="궁극의 질문">궁극의 질문</a></h1>
+            <div class="detail_title_wrap">
+                <h2 class="detail_titile">What is the future of continuous data processing?</h2>
+                <span class="detail_name">Martin Ziegler, School of Computer</span>
+            </div>
+        </div>
+        <!--  디테일 탑     -->
+        <!--  디테일 컨텐츠  -->
+        <div class="sub_contents sub_detail_contents">
+            <div class="scroll">
+                <div class="detail_txt">
+                    <p align="justify">
+                        On the intersection between both areas, Mathematics and Computer Science, is: Numerics.
+                        Science, Engineering, Economics, and Mathematics itself: 
+                        all involve complicated equations, that usually admit NO EXACT solution.
+                        Instead, numerical calculations are used to solve them APPROXIMATELY
+                        ---since the 1930ies, often as replacements of expensive/dangerous experiments.
+                        1985 marked the beginning of a veritable Numerical Revolution:
+                        35 years ago the IEEE 754 floating point standard was introduced,
+                        immediately followed by hardware support that would drastically accelerate calculations:
+                        a veritable pinnacle of Electrical Engineering!
+                        These 35 years have seen computing evolve from a hackers' paradise to a scientific discipline. 
+                        As Moore's Law is reaching its limitations, the goals of research in Computing have shifted: 
+                        from raw "faster" and "bigger" to refined "convenient" and "rigorous" and "elegant";
+                        from Electrical ENGINEERING to Computer SCIENCE:
+                        * Design of algorithms has replaced heuristical "hacking"
+                        * Bitcost analyses have replaced empirical timing measurements;
+                        * Complexity theory allows to mathematically prove algorithms optimal;
+                        * Formal verification has replaced testing and debugging.
+                        * Abstract Data Types / OOP hide technical details (CPU, registers).
+                        But this paradigm shift from Electrical Engineering to Computer Science 
+                        has been restricted to the processing of DISCRETE data. For the past decades, 
+                        Computer Science kept turning a blind eye on the processing of CONTINUOUS quantities
+                        ---although these are ubiquitous in applications: scalar and vector fields, differential operators etc.
+                        Still nowadays, continuous data is commonly treated by discretization. 
+                        But discretizing a continuous problem adds artefacts and breaks symmetries as well as other beneficial properties of the original formulation.
+                        For example floating point numbers violate the Associate and Distributive Law:
+                        leading to many bugs burried in most numerical codes, such as those that led to the
+                        collapse of the computer-designed Sleipner-A oil platform, failure of the Ariane V maiden flight 501.
+                        Discretization voids all the reasons Real Calculus has been developed in the first place:
+                        completeness, intermediate value and fixed point theorems.
+                        We develop "Computer Science for Numerics":
+                        in order to fill this huge blind spot in the science of processing continuous data, ready for the SECOND Numerical Revolution.
+                        The iRRAM library, developed in Germany, supports real numbers as abstract data type: 
+                        exactly, devoid of rounding errors, in full agreement with Mathematics.
+                        It hides floating point computations behind a layer of clean and ideal abstractions,
+                        just like high-level programming languages hide bits and bytes and processor details.
+                        Building on the reliability of these exact real numbers
+                        are vectors and matrices and tensors, polynomials;
+                        converging sequences, analytic and smooth functions.
+                        Mathematically these constitute "expansions of structures" in the sense of Model Theory;
+                        computationally they form a hierarchy of continuous abstract data types.
+                        Together they allow to transfer constructive proofs from Calculus I,II,III,IV directly and automatically into reliable algorithms.
+                        IEEE 754 floating point numbers are a pinnacle of Electrical Engineering; like modern CPUs.
+                        Computer Science has added the abstractions that allow for the convenience of contemporary computers.
+                        Its powerful and rigorous methods underlie the development of large-scale software, such as Computer Algebra Systems.
+                        We extend this to the development of a Computer ANALYSIS System:
+                        Turnkey numerics combining the knowledge of world experts in Pure and Applied Mathematics with the reliability of Computer Science. Thank you!
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--공통하단-->
+        <div class="bottom">
+            <div class="btn_wrap">
+                <span class="icon_home"><a href="../../main.html">home</a></span>
+                <span class="btn_prev"><a href="../question_list/sub_question_list_eng_1.html">Back</a></span>
+                <span class="btn_go_list"><a href="../question_list/sub_question_list_eng_1.html">Go to Index</a></span>
+            </div>
+        </div>
+        <!--//공통하단-->
+    </div>
+    <!-- 디테일 감싸는 부분 -->
+
+</body>
+
+</html>
