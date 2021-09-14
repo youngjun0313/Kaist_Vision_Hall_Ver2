@@ -149,7 +149,7 @@ textarea, a.btn_dft
 /* 서브컨텐츠 */
 .sub_contents { overflow: hidden; width: 100%; height: 80vh; }
 
-.sub_detail_contents { height: 65vh; margin-bottom: 120px;}
+.sub_detail_contents { height: 72.8vh; margin-bottom: 120px;}
 
 /* 페이지 */
 .paging_wrap { text-align: center; width: 100%; height: 94px; overflow: hidden; position: relative; }
@@ -215,4 +215,4 @@ textarea, a.btn_dft
 .list_num_eng { padding-top: 18px; font-size: 28px; width: 132px; margin-right: 0; padding-top: 20px;}
 
 /* bottom */
-.bottom { margin: 40px 0; width: 100%; height: 80px; background-color: #2d231d; position: absolute; left: 0; bottom: 0;}
+.bottom { margin: 40px 0; width: 100%; height: 80px; background-color: #2d231d; position: absolute; left: 0; bottom: -40px;}
