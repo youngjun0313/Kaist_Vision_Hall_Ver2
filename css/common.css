@@ -26,6 +26,11 @@ time, mark, audio, video, button, input {
 	color:#000;
 }
 
+h1, sup {
+	font-size: 0.5em;
+    vertical-align: top;  
+}
+
 b, span {font-size:1em;}
 
 /* HTML5 display-role reset for older browsers */
@@ -142,9 +147,9 @@ textarea, a.btn_dft
 .sub_top::after { content: ''; display: table; clear: both; }
 
 /* 서브컨텐츠 */
-.sub_contents { overflow: hidden; width: 100%; }
+.sub_contents { overflow: hidden; width: 100%; height: 80vh; }
 
-.sub_detail_contents { height: 65vh; }
+.sub_detail_contents { height: 65vh; margin-bottom: 120px;}
 
 /* 페이지 */
 .paging_wrap { text-align: center; width: 100%; height: 94px; overflow: hidden; position: relative; }
@@ -210,4 +215,4 @@ textarea, a.btn_dft
 .list_num_eng { padding-top: 18px; font-size: 28px; width: 132px; margin-right: 0; padding-top: 20px;}
 
 /* bottom */
-.bottom { margin: 40px 0; width: 100%; height: 80px; background-color: #2d231d; margin-top: 80px;}
+.bottom { margin: 40px 0; width: 100%; height: 80px; background-color: #2d231d; position: absolute; left: 0; bottom: 0;}
